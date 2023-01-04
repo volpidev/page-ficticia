@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Veterinária Petzito</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="home.html"><font color="yellow" face="Arial">Home</font></a></li><br>
+                <li><a href="sobrenos.html"><font color="yellow" face="Arial">Sobre nós</font></a></li><br>
+                <li><a href="contato.html"><font color="yellow" face="Arial">Fale conosco</font></a></li><br>
+                <li><a href="horario.html"><font color="yellow" face="Arial">Horário de Atendimento</font></a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="contato.png" width="950px" height="400">
+            </div>
+    
+            <div class="content">
+                <p><b><font face="Times New Roman" size="5" color="blue">OLÁ, FIQUE A VONTADE PARA ENTRAR EM CONTATO CONOSCO!</font></b></p>
+                <p><font face="Arial" size="3">Essa área do site, é para que você possa dar sugestões, críticas ou simplesmente ficar em contato com o Petshop Petzito.</font></p>
+                <p><font face="Arial" size="3">Use o formulário e entre em contato conosco!</font></p>
+                <form name="contact" onsubmit="alert('Seus dados foram enviados, entraremos em contato.');" method="POST">
+                    <label>Nome: </label><input type="text" name="name" />
+                    <label>Telefone: </label><input type="text" name="telephone" /><br><br>
+                    <label>Email: </label><input type="text" name="email" />
+                    <select name="tipodecontato">
+                        <option value="">Contato</option>
+                        <option value="">Reclamações</option>
+                        <option value="">Clínica Petzito</option>
+                    </select>
+                    <br><br>
+                    <label>Mensagem: </label>
+                    <textarea rows="" cols="40" name="message"></textarea>
+                    <button type="submite">Enviar</button> <button type="reset">Limpar</button>
+                </form>
+                <br>
+                <p><font face="arial" size="3">Ou nos ligue</font></p>
+                <p><font face="arial" size="3">Telefone: (12) 3456-7890</font></p>
+                <p><font face="arial" size="3">Endereço: Rua Imaginação, 123 - Cidade Brasileira</font></p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235199.33726996472!2d-43.586409159810415!3d-22.913752784838813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bde559108a05b%3A0x50dc426c672fd24e!2sRio%20de%20Janeiro%2C%20RJ!5e0!3m2!1spt-BR!2sbr!4v1672846763336!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+    
+            <div class="footer">
+                <img src="adote.png" width="950px" height="400" > 
+            </div>
+        </div>
+    </div>
+</body>
+</html>
